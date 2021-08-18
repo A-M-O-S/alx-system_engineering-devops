@@ -9,3 +9,4 @@ mkdir is used to create a new directory
 mv is ude to move a file
 rm is used ot delete a file
 rm -r is used to delete a dir
+cd - changes the working directory to the previous one

@@ -4,3 +4,4 @@ groups is used to print all the groups the current user is part
 chown is used to change the owner of a file
 touch is used to create a file
 chmod u+x is used to make a file executable
+chmod u+x,g+x,o+r hello is used to give multiple permissions

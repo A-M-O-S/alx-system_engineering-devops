@@ -1,1 +1,2 @@
 su is used to switch the current user to another user
+id -un is used to print the effectiveusername of the current user

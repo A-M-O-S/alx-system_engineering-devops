@@ -7,3 +7,4 @@ cat /etc/passwd | tail prints the last ten lines of the file /etc/passwd
 cat /etc/passwd | head prints the first lines of the file /etc/passwd
 cat ./iacta | tail --lines=+3 | head -1 is used to print the thirs line of the file iacta
 echo "Best School"
+ls -la > ls_cwd_content writes into a the file ls_cwd_content, if it exists, it overwrites it and if it not there, it creates it

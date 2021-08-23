@@ -8,3 +8,4 @@ cat /etc/passwd | head prints the first lines of the file /etc/passwd
 cat ./iacta | tail --lines=+3 | head -1 is used to print the thirs line of the file iacta
 echo "Best School"
 ls -la > ls_cwd_content writes into a the file ls_cwd_content, if it exists, it overwrites it and if it not there, it creates it
+cat. /iacta |tail --lines=1 >> iacta is used to duplicate the last line of the file iacta

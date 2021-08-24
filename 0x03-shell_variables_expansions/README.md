@@ -11,3 +11,4 @@ echo $((128 + $TRUEKNOWLEDGE)) is used to print the result of the addition of 12
 echo $((POWER/DIVIDE)) is used print the result of POWER and DIVIDE
 echo $((BREATH**LOVE)) is used to display the result of Breath to the power Love
 echo $((2#$BINARY)) is used convert from base 2 to base 10 and iis stored in BINARY
+echo {a..z}{a..Z} | tr ' ' '\n' | grep -v "oo" is used to print every possible comlbination of letteres excluding oo

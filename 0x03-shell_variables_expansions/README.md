@@ -10,3 +10,4 @@ export HOLBERTON="Betty" is used to create a new global variable whose name is H
 echo $((128 + $TRUEKNOWLEDGE)) is used to print the result of the addition of 128 with values stored in the environment variable TRUEKNOWLEDGE, followed by a new line
 echo $((POWER/DIVIDE)) is used print the result of POWER and DIVIDE
 echo $((BREATH**LOVE)) is used to display the result of Breath to the power Love
+echo $((2#$BINARY)) is used convert from base 2 to base 10 and iis stored in BINARY

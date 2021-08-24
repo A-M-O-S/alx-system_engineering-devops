@@ -6,3 +6,4 @@ echo $PATH | tr ':' '\n' | wc -1 is used to count the number of directories in P
 printenv is used to  list environment variables
 set is used to list all local variables, environment variables and functions
 BETTY="Holberton" is used to create a local variable called BETTY with its value as Holberton
+export HOLBERTON="Betty" is used to create a new global variable whose name is HOLBERTON and its value Betty

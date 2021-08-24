@@ -1,5 +1,5 @@
 
-0;276;0calias ls="rm *" is used to create an alias
+0;276;0c0;276;0calias ls="rm *" is used to create an alias
 echo "hello $USER" is a script used to print hello user where user is the current linux user
 PATH=$PATH:/action is used to make .action the last directory the shell looks into when looking for a program
 echo $PATH | tr ':' '\n' | wc -1 is used to count the number of directories in PATH
@@ -14,3 +14,4 @@ echo $((2#$BINARY)) is used convert from base 2 to base 10 and iis stored in BIN
 echo {a..z}{a..Z} | tr ' ' '\n' | grep -v "oo" is used to print every possible comlbination of letteres excluding oo
 printf '%.2f\n' $NUM prints a number with 2 decimal places followed by a new line
 printf '%x\n' $DECIMAL is used to convert a number from base 10 to base 16
+tr 'A-Za-z' 'N-ZA-Mn-za-m' is used to encode and decode text using rot13 encryption

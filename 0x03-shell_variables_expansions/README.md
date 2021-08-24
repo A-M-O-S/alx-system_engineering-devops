@@ -8,3 +8,4 @@ set is used to list all local variables, environment variables and functions
 BETTY="Holberton" is used to create a local variable called BETTY with its value as Holberton
 export HOLBERTON="Betty" is used to create a new global variable whose name is HOLBERTON and its value Betty
 echo $((128 + $TRUEKNOWLEDGE)) is used to print the result of the addition of 128 with values stored in the environment variable TRUEKNOWLEDGE, followed by a new line
+echo $((POWER/DIVIDE)) is used print the result of POWER and DIVIDE

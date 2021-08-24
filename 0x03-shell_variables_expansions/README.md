@@ -13,3 +13,4 @@ echo $((BREATH**LOVE)) is used to display the result of Breath to the power Love
 echo $((2#$BINARY)) is used convert from base 2 to base 10 and iis stored in BINARY
 echo {a..z}{a..Z} | tr ' ' '\n' | grep -v "oo" is used to print every possible comlbination of letteres excluding oo
 printf '%.2f\n' $NUM prints a number with 2 decimal places followed by a new line
+printf '%x\n' $DECIMAL is used to convert a number from base 10 to base 16

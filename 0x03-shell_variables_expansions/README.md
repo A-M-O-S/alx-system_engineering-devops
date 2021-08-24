@@ -1,0 +1,1 @@
+alias ls="rm *" is used to create an alias

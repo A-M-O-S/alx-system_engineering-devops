@@ -15,3 +15,4 @@ echo {a..z}{a..Z} | tr ' ' '\n' | grep -v "oo" is used to print every possible c
 printf '%.2f\n' $NUM prints a number with 2 decimal places followed by a new line
 printf '%x\n' $DECIMAL is used to convert a number from base 10 to base 16
 tr 'A-Za-z' 'N-ZA-Mn-za-m' is used to encode and decode text using rot13 encryption
+paste -d, - - | cut -d, -f1 is used to print every other line from input starting from the first line
